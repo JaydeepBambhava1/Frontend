@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<style>
+* 
+{
+    box-sizing: border-box;
+}
+
+input 
+{
+width: 100%;
+margin: 8px 0;
+padding: 12px 20px;
+display: inline-block;
+border: 2px solid green;
+box-sizing: border-box;
+}
+
+input:focus{
+    background-color: tomato;
+    color: white;
+}
+
+.container {
+margin: 0px 690px;
+width: 500px;
+padding: 25px;
+background-color: rgb(90, 180, 110);
+}
+
+.button 
+{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover 
+{
+    background-color: rgb(228, 216, 112)
+}
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+
+</style>
+    </head>
+
+    <body>
+<center>
+<h1>Login Form </h1>
+</center>
+<form>
+<div class="container">
+Username :
+<input type="text" placeholder="Enter Username" name="username" required>
+<label>Password : </label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<a href="/mainpage.html"> <input type="button" value="Login" class="button"> </a>
+</div>
+</form>
+
+<div style="text-align: center;">Hover over this div element to show the p element
+    <p>Done!</p>
+  </div>
+  
+
+</body>
+
+</html>
